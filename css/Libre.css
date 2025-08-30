@@ -20,19 +20,78 @@
     /* background-position:-797px -210px; */
     top: 210px;
     left: 797px;
+    animation-name: infinity_flower1;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes infinity_flower1 {
+    0% {
+        top: 210px;
+        left: 797px;
+    }
+
+    50% {
+        bottom: 10px;
+    }
+
+    100% {
+        top: 190px;
+    }
 }
 
 .banner-left .flow2 img {
     position: absolute;
     top: 495px;
     left: 1110px;
+    animation-name: infinity_flower2;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes infinity_flower2 {
+    0% {
+        top: 495px;
+        left: 1110px;
+    }
+
+    50% {
+        bottom: 10px;
+    }
+
+    100% {
+        top: 475px;
+    }
 }
 
 .banner-left .flow3 img {
     position: absolute;
     top: 160px;
     left: 1625px;
+    animation-name: infinity_flower3;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
 }
+
+@keyframes infinity_flower3 {
+    0% {
+        top: 160px;
+        left: 1625px;
+    }
+
+    50% {
+        bottom: 10px;
+    }
+
+    100% {
+        top: 150px;
+    }
+}
+
+
 
 .banner-left .background-letter .text1 img {
     position: absolute;
@@ -56,7 +115,27 @@
     position: absolute;
     top: 43px;
     left: 375px;
+    animation-name: infinity_item;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
 }
+
+@keyframes infinity_item {
+    0% {
+        top: 43px;
+        left: 375px;
+    }
+
+    50% {
+        bottom: 0px;
+    }
+
+    100% {
+        top: 50px;
+    }
+}
+
 
 .more-btn a {
     display: flex;
@@ -74,14 +153,14 @@
 .banner-right {
     position: absolute;
     /* border: 1px solid black; */
-    display: flex;    
+    display: flex;
     height: 242.62px;
     flex-direction: column;
     align-items: flex-start;
     gap: 35px;
-    right:260px;
-    top:250px;
-    
+    right: 260px;
+    top: 250px;
+
 }
 
 /* .banner-right .banner-text {
@@ -90,20 +169,22 @@
 } */
 .banner-right .banner-text h2 {
     font-size: 36px;
-    font-weight:600;
-    color:#000;
-    
+    font-weight: 600;
+    color: #000;
+
 }
+
 .banner-right .banner-text .fir {
-    margin-top:30px;
+    margin-top: 30px;
     font-size: 20px;
-    font-weight:500;
-    color:#000;
-    
+    font-weight: 500;
+    color: #000;
+
 }
+
 .banner-right>.banner-text>.secon {
     font-size: 16px;
-    font-weight:400;
-    color:#959595;
-    
+    font-weight: 400;
+    color: #959595;
+
 }
