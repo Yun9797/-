@@ -1,0 +1,72 @@
+.banner-img .item{
+    width: 30px;
+    height:40px;
+}
+
+
+.inner{
+    width: 1920px;
+    height:700px;
+    display:flex;
+    position:relative;
+    justify-content: space-between ;
+    
+}
+
+.banner-left .flow1 img{
+    /* width:148; */
+    position:absolute;
+    /* background-position:-797px -210px; */
+    top:210px;
+    left:797px;
+}
+.banner-left .flow2 img{
+    position:absolute;
+    top:495px;
+    left:1110px;
+}
+.banner-left .flow3 img{
+    position:absolute;
+    top:160px;
+    left:1625px;
+}
+
+.banner-left .background-letter .text1 img{
+    position:absolute;
+    top:24px;
+    left:240px;
+}
+
+.banner-left .background-letter .text2 img{
+    position:absolute;
+    top:248px;
+    left:405px;
+}
+
+.banner-left .background-letter .text3 img{
+    position:absolute;
+    top:457px;
+    left:138px;
+}
+.banner-left .item img{
+    position:absolute;
+    top:43px;
+    left:375px;
+}
+
+.more-btn a{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    padding:12px 30px;
+    width:120px;
+    height:24px;
+    border:1px solid #cbb699; 
+    border-radius:30px;
+    color:#cbb699;
+
+}
+
+.banner-right {
+    align-items:center;
+}
