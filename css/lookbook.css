@@ -19,7 +19,7 @@
 .item-imgs {
     margin:0 0 0 30px;
     display: flex;
-    gap: 12px;
+    gap: 30px;
     align-items: center;
 }
 .item-imgs>img{
