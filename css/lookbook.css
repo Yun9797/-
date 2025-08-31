@@ -22,7 +22,10 @@
     gap: 12px;
     align-items: center;
 }
-
+.item-imgs>img{
+    width: 523px;
+    height: 670px;
+}
 .item-imgs .text-buble1,
 .text-buble2,
 .text-buble3,
