@@ -1,9 +1,11 @@
 *{
     margin:0;
     padding:0;
-    font-family: 'pretendard';
 }
+body{
+    font-family: 'pretendard';
 
+}
 li{
     list-style: none;
 }

@@ -1,3 +1,11 @@
+body{
+    max-width:1920px;
+}
+.inner{
+    overflow:hidden;
+    /* border:1px solid black; */
+}
+
 .banner-text {
     text-align: center;
     margin: 95px 0 61px;

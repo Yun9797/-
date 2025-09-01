@@ -1,7 +1,7 @@
-.banner-img .item {
+/* .banner-img .item {
     width: 30px;
     height: 40px;
-}
+} */
 
 
 .inner {
@@ -10,7 +10,8 @@
     display: flex;
     position: relative;
     justify-content: space-between;
-    /* border:1px solid black; */
+    margin-top:50px;
+    border:1px solid black;
 
 }
 
@@ -46,7 +47,7 @@
     top: 495px;
     left: 1110px;
     animation-name: infinity_flower2;
-    animation-duration: 2s;
+    animation-duration: 1s;
     animation-iteration-count: infinite;
     animation-direction: alternate;
 }
@@ -71,7 +72,7 @@
     top: 160px;
     left: 1625px;
     animation-name: infinity_flower3;
-    animation-duration: 4s;
+    animation-duration: 3s;
     animation-iteration-count: infinite;
     animation-direction: alternate;
 }
@@ -110,29 +111,38 @@
     top: 457px;
     left: 138px;
 }
+.banner-left .background-letter .text4{
+    position:absolute;
+    display: block;
+    top:460px;
+    left:140px;
+    border:1px solid 1px;
+    background-color:#000;
+    z-index: 100000;
+}
 
 .banner-left .item img {
     position: absolute;
-    top: 43px;
-    left: 375px;
+    top: -10px;
+    left: 360px;
     animation-name: infinity_item;
-    animation-duration: 2s;
+    animation-duration: 3s;
     animation-iteration-count: infinite;
     animation-direction: alternate;
 }
 
 @keyframes infinity_item {
     0% {
-        top: 43px;
-        left: 375px;
+        top: -10px;
+        left: 360px;
     }
 
-    50% {
-        bottom: 0px;
-    }
+    /* 50%{
+        top: */
+    
 
     100% {
-        top: 50px;
+        top: 30px;
     }
 }
 
@@ -186,11 +196,16 @@
     font-size: 16px;
     font-weight: 400;
     color: #959595;
+    margin-top:9px;
 
 }
 
 .banner-right .more-btn:hover a{
     background:#cbb699;
+    background-repeat:no-repeat;
     color:#fff;
     transition:0.3s;
+}
+.banner-right .more-btn:hover img{
+    content:url(../images/arrow-right-thin.svg);
 }
