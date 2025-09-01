@@ -188,3 +188,9 @@
     color: #959595;
 
 }
+
+.banner-right .more-btn:hover a{
+    background:#cbb699;
+    color:#fff;
+    transition:0.3s;
+}
