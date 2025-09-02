@@ -4,14 +4,14 @@
 } */
 
 
-.inner {
+.libre>.inner {
     width: 1920px;
     height: 700px;
     display: flex;
     position: relative;
     justify-content: space-between;
-    margin-top:50px;
-    border:1px solid black;
+    margin-top:8 0px;
+    /* border:1px solid black; */
 
 }
 
@@ -111,14 +111,15 @@
     top: 457px;
     left: 138px;
 }
-.banner-left .background-letter .text4{
+.banner-left .text4{
     position:absolute;
     display: block;
-    top:460px;
-    left:140px;
-    border:1px solid 1px;
-    background-color:#000;
-    z-index: 100000;
+    top:600px;
+    left:150px;
+    width:800px;
+    height:100px;
+    background-color:#fff;
+    z-index: 100;
 }
 
 .banner-left .item img {
@@ -147,7 +148,7 @@
 }
 
 
-.more-btn a {
+.banner-right .more-btn a {
     display: flex;
     justify-content: space-between;
     align-items: center;

@@ -1,40 +1,40 @@
 body{
     max-width:1920px;
 }
-.inner{
+.lookbook-wrap .inner{
     overflow:hidden;
     /* border:1px solid black; */
 }
 
-.banner-text {
+.lookbook-wrap .banner-text {
     text-align: center;
     margin: 95px 0 61px;
     
 }
 
-.banner-text h2 {
+.lookbook-wrap .banner-text h2 {
     font-size: 36px;
     font-weight: 500;
 }
 
-.banner-text p {
+.lookbook-wrap .banner-text p {
     font-size: 16px;
     font-weight: 400;
     color: #757575;
     margin-top: 10px;
 }
 
-.item-imgs {
+.lookbook-wrap .item-imgs {
     margin:0 0 0 30px;
     display: flex;
     gap: 30px;
     align-items: center;
 }
-.item-imgs>img{
+.lookbook-wrap .item-imgs>img{
     width: 523px;
     height: 670px;
 }
-.item-imgs .text-buble1,
+.lookbook-wrap .item-imgs .text-buble1,
 .text-buble2,
 .text-buble3,
 .text-buble4,
@@ -48,7 +48,7 @@ body{
 
 
 /* 1번사진 */
-.item-imgs .item1 {
+.lookbook-wrap .item-imgs .item1 {
     position: relative;
 
 }
@@ -149,7 +149,7 @@ body{
 
 }
 
-.item-imgs .item1:hover{
+.lookbook-wrap .item-imgs .item1:hover{
     .text-buble1{
         display:block;
     }
@@ -158,7 +158,7 @@ body{
 
 
 /* 2번사진 */
-.item-imgs .item2 {
+.lookbook-wrap .item-imgs .item2 {
     position: relative;
 
 }
@@ -259,14 +259,14 @@ body{
 
 }
 
-.item-imgs .item2:hover{
+.lookbook-wrap .item-imgs .item2:hover{
     .text-buble2{
         display:block;
     }
 }
 
 /* 3번째 사진 */
-.item-imgs .item3 {
+.lookbook-wrap .item-imgs .item3 {
     position: relative;
 
 }
@@ -303,14 +303,14 @@ body{
 
 }
 
-.item-imgs .item3:hover{
+.lookbook-wrap .item-imgs .item3:hover{
     .text-buble3{
         display:block;
     }
 }
 
 /* 4번째 사진 */
-.item-imgs .item4 {
+.lookbook-wrap .item-imgs .item4 {
     position: relative;
 
 }
@@ -347,14 +347,14 @@ body{
 
 }
 
-.item-imgs .item4:hover{
+.lookbook-wrap .item-imgs .item4:hover{
     .text-buble4{
         display:block;
     }
 }
 
 /* 5번째 사진 */
-.item-imgs .item5 {
+.lookbook-wrap .item-imgs .item5 {
     position: relative;
 
 }
@@ -391,14 +391,14 @@ body{
 
 }
 
-.item-imgs .item5:hover{
+.lookbook-wrap .item-imgs .item5:hover{
     .text-buble5{
         display:block;
     }
 }
 
 /* 6번째 사진 */
-.item-imgs .item6 {
+.lookbook-wrap .item-imgs .item6 {
     position: relative;
 
 }
@@ -435,14 +435,14 @@ body{
 
 }
 
-.item-imgs .item6:hover{
+.lookbook-wrap .item-imgs .item6:hover{
     .text-buble6{
         display:block;
     }
 }
 
 /* 7번째 사진 */
-.item-imgs .item7 {
+.lookbook-wrap .item-imgs .item7 {
     position: relative;
 
 }
@@ -543,14 +543,14 @@ body{
 
 }
 
-.item-imgs .item7:hover{
+.lookbook-wrap .item-imgs .item7:hover{
     .text-buble7{
         display:block;
     }
 }
 
 /* 8번째 사진 */
-.item-imgs .item8 {
+.lookbook-wrap .item-imgs .item8 {
     position: relative;
 
 }
@@ -619,7 +619,7 @@ body{
 
 }
 
-.item-imgs .item8:hover{
+.lookbook-wrap .item-imgs .item8:hover{
     .text-buble8{
         display:block;
     }
