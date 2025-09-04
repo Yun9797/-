@@ -149,10 +149,9 @@ body{
 
 }
 
-.lookbook-wrap .item-imgs .item1:hover{
-    .text-buble1{
-        display:block;
-    }
+.lookbook-wrap .item-imgs .item1:hover .text-buble1{
+    display:block;
+
 }
 
 
@@ -259,10 +258,8 @@ body{
 
 }
 
-.lookbook-wrap .item-imgs .item2:hover{
-    .text-buble2{
+.lookbook-wrap .item-imgs .item2:hover .text-buble2{
         display:block;
-    }
 }
 
 /* 3번째 사진 */
@@ -303,10 +300,8 @@ body{
 
 }
 
-.lookbook-wrap .item-imgs .item3:hover{
-    .text-buble3{
-        display:block;
-    }
+.lookbook-wrap .item-imgs .item3:hover .text-buble3{
+    display: block;
 }
 
 /* 4번째 사진 */
@@ -347,10 +342,8 @@ body{
 
 }
 
-.lookbook-wrap .item-imgs .item4:hover{
-    .text-buble4{
-        display:block;
-    }
+.lookbook-wrap .item-imgs .item4:hover .text-buble4{
+    display:block;
 }
 
 /* 5번째 사진 */
@@ -391,10 +384,8 @@ body{
 
 }
 
-.lookbook-wrap .item-imgs .item5:hover{
-    .text-buble5{
-        display:block;
-    }
+.lookbook-wrap .item-imgs .item5:hover .text-buble5{
+    display: block;
 }
 
 /* 6번째 사진 */
@@ -435,10 +426,8 @@ body{
 
 }
 
-.lookbook-wrap .item-imgs .item6:hover{
-    .text-buble6{
-        display:block;
-    }
+.lookbook-wrap .item-imgs .item6:hover .text-buble6{
+    display: block;
 }
 
 /* 7번째 사진 */
@@ -543,10 +532,8 @@ body{
 
 }
 
-.lookbook-wrap .item-imgs .item7:hover{
-    .text-buble7{
-        display:block;
-    }
+.lookbook-wrap .item-imgs .item7:hover .text-buble7{
+    display: block;
 }
 
 /* 8번째 사진 */
@@ -619,8 +606,6 @@ body{
 
 }
 
-.lookbook-wrap .item-imgs .item8:hover{
-    .text-buble8{
-        display:block;
-    }
+.lookbook-wrap .item-imgs .item8:hover .text-buble8{
+    display: block;
 }
