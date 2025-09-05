@@ -23,7 +23,7 @@ em,i,address{font-style: normal;}
 html{
     font-family: Pretendard,"돋움",sans-serif;
     font-size: 10px;
-    min-width: 500px;
+    /* min-width: 500px; */
 }
 /* 변수 선언 */
 :root{
