@@ -111,7 +111,7 @@
     flex-direction: column;
 }
 .text-box .item-sub_title {
-    margin-top: 5px;
+    margin-top: 0.5rem;
     color: var(--text-sub2);
 }
 .text-box .item-price {
