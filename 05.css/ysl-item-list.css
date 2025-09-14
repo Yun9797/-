@@ -1,7 +1,10 @@
+.inner{
+    margin:0 150px 0;
+}
 .filter-bar {
     display: flex;
     justify-content: space-between;
-    margin:0 150px;
+    
 }
 
 .filter-bar .left {
@@ -29,8 +32,16 @@
 }
 
 
-
-.item-list-1 {
+.item-list-all{
+    display: flex;
+    flex-direction: column;
+    gap:80px;
+    margin-top:40px;
+}
+.item-list {
     display: flex;
     gap: 40px;
+    justify-content: center;   
 }
+
+
