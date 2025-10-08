@@ -1,0 +1,622 @@
+.lookbook-wrap .inner {
+    margin: 0 auto;
+    padding-bottom: 13rem;
+    /* background-color: aqua; */
+}
+
+.lookbook-wrap .banner-text {
+    text-align: center;
+    margin: 9.5rem 0 6.1rem;
+}
+
+.lookbook-wrap .swiper-wrapper .item-imgs {
+    display: flex;
+    align-items: center;
+}
+
+.lookbook-wrap .item-imgs .swiper-slide {
+    width: 100%;
+    aspect-ratio: 4.2 / 5.2;
+    overflow: hidden;
+    border-radius: 12px;
+}
+
+.lookbook-wrap .item-imgs .swiper-slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.lookbook-wrap .item-imgs .text-buble1,
+.text-buble2,
+.text-buble3,
+.text-buble4,
+.text-buble5,
+.text-buble6,
+.text-buble7,
+.text-buble8 {
+    display: none;
+}
+
+/* pager */
+.lookbook-wrap .swiper-pagination {
+    position: absolute;
+    bottom: 7rem;
+}
+
+.lookbook-wrap .swiper-pagination-bullet {
+    width: 8px;
+    height: 8px;
+    border-radius: 4px;
+    background: #d9d9d9;
+    opacity: 0.6;
+    transition: 0.5s;
+}
+
+.lookbook-wrap .swiper-pagination-bullet-active {
+    width: 40px;
+    opacity: 1;
+}
+
+
+/* 1번사진 */
+.lookbook-wrap .item-imgs .item1 {
+    position: relative;
+}
+
+.text-buble1 .hashtag1 {
+    position: absolute;
+    width: 21.5rem;
+    height: 4rem;
+    background: rgba(217, 217, 217, 0.50);
+    backdrop-filter: blur(2px);
+    /* border: 1px solid #ccc; */
+    padding: 0.8rem 1.6rem;
+    font-size: 1.6rem;
+    font-weight: 400;
+    letter-spacing: 0.4px;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    bottom: 39rem;
+    left: 1rem;
+    color: #fff;
+}
+
+.text-buble1 .hashtag1::after {
+    content: '';
+    position: absolute;
+    left: 18rem;
+    top: -1.6rem;
+    width: 0;
+    height: 0;
+    border: 0.8rem solid transparent;
+    border-bottom-color: rgba(217, 217, 217, 0.50);
+    margin-left: -0.8rem;
+
+}
+
+.text-buble1 .hashtag2 {
+    position: absolute;
+    width: 19rem;
+    height: 4rem;
+    background: rgba(217, 217, 217, 0.50);
+    backdrop-filter: blur(2px);
+    /* border: 1px solid #ccc; */
+    padding: 0.8rem 1.6rem;
+    font-size: 1.6rem;
+    font-weight: 400;
+    letter-spacing: 0.4px;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    bottom: 15.5rem;
+    right: 12.7rem;
+    color: #fff;
+}
+
+.text-buble1 .hashtag2::after {
+    content: '';
+    position: absolute;
+    left: 1.7rem;
+    top: -1.6rem;
+    width: 0;
+    height: 0;
+    border: 0.8rem solid transparent;
+    border-bottom-color: rgba(217, 217, 217, 0.50);
+    margin-left: -0.8rem;
+
+}
+
+.text-buble1 .hashtag3 {
+    position: absolute;
+    width: 16.6rem;
+    height: 4rem;
+    background: rgba(217, 217, 217, 0.50);
+    backdrop-filter: blur(2px);
+    /* border: 1px solid #ccc; */
+    padding: 0.8rem 1.6rem;
+    font-size: 1.6rem;
+    font-weight: 400;
+    letter-spacing: 0.4px;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    bottom: 37rem;
+    right: 6.1rem;
+    color: #fff;
+}
+
+.text-buble1 .hashtag3::after {
+    content: '';
+    position: absolute;
+    left: 1.7rem;
+    top: -1.6rem;
+    width: 0;
+    height: 0;
+    border: 0.8rem solid transparent;
+    border-bottom-color: rgba(217, 217, 217, 0.50);
+    margin-left: -0.8rem;
+
+}
+
+.lookbook-wrap .item-imgs .item1:hover .text-buble1 {
+    display: block;
+
+}
+
+
+
+/* 2번사진 */
+.lookbook-wrap .item-imgs .item2 {
+    position: relative;
+
+}
+
+.text-buble2 .hashtag1 {
+    position: absolute;
+    width: 21.5rem;
+    height: 4rem;
+    background: rgba(217, 217, 217, 0.50);
+    backdrop-filter: blur(2px);
+    /* border: 1px solid #ccc; */
+    padding: 0.8rem 1.6rem;
+    font-size: 1.6rem;
+    font-weight: 400;
+    letter-spacing: 0.4px;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    bottom: 28rem;
+    right: 20rem;
+    color: #fff;
+}
+
+.text-buble2 .hashtag1::after {
+    content: '';
+    position: absolute;
+    left: 1.8rem;
+    top: -1.6rem;
+    width: 0;
+    height: 0;
+    border: 0.8rem solid transparent;
+    border-bottom-color: rgba(217, 217, 217, 0.50);
+    margin-left: -0.8rem;
+
+}
+
+.text-buble2 .hashtag2 {
+    position: absolute;
+    width: 14rem;
+    height: 4rem;
+    background: rgba(217, 217, 217, 0.50);
+    backdrop-filter: blur(2px);
+    /* border: 1px solid #ccc; */
+    padding: 0.8rem 1.6rem;
+    font-size: 1.6rem;
+    font-weight: 400;
+    letter-spacing: 0.4px;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    bottom: 23rem;
+    right: 6rem;
+    color: #fff;
+}
+
+.text-buble2 .hashtag2::after {
+    content: '';
+    position: absolute;
+    left: 17px;
+    top: -1.6rem;
+    width: 0;
+    height: 0;
+    border: 0.8rem solid transparent;
+    border-bottom-color: rgba(217, 217, 217, 0.50);
+    margin-left: -0.8rem;
+
+}
+
+.text-buble2 .hashtag3 {
+    position: absolute;
+    width: 19rem;
+    height: 4rem;
+    background: rgba(217, 217, 217, 0.50);
+    backdrop-filter: blur(2px);
+    /* border: 1px solid #ccc; */
+    padding: 0.8rem 1.6rem;
+    font-size: 1.6rem;
+    font-weight: 400;
+    letter-spacing: 0.4px;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    bottom: 105px;
+    right: 125px;
+    color: #fff;
+}
+
+.text-buble2 .hashtag3::after {
+    content: '';
+    position: absolute;
+    left: 1.7rem;
+    top: -1.6rem;
+    width: 0;
+    height: 0;
+    border: 0.8rem solid transparent;
+    border-bottom-color: rgba(217, 217, 217, 0.50);
+    margin-left: -0.8rem;
+
+}
+
+.lookbook-wrap .item-imgs .item2:hover .text-buble2 {
+    display: block;
+}
+
+/* 3번째 사진 */
+.lookbook-wrap .item-imgs .item3 {
+    position: relative;
+
+}
+
+.text-buble3 .hashtag1 {
+    position: absolute;
+    width: 17.5rem;
+    height: 4rem;
+    background: rgba(217, 217, 217, 0.50);
+    backdrop-filter: blur(2px);
+    /* border: 1px solid #ccc; */
+    padding: 0.8rem 1.6rem;
+    font-size: 1.6rem;
+    font-weight: 400;
+    letter-spacing: 0.4px;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    top: 12rem;
+    right: 13.6rem;
+    color: #fff;
+}
+
+.text-buble3 .hashtag1::after {
+    content: '';
+    position: absolute;
+    left: 1.8rem;
+    top: -1.6rem;
+    width: 0;
+    height: 0;
+    border: 0.8rem solid transparent;
+    border-bottom-color: rgba(217, 217, 217, 0.50);
+    margin-left: -0.8rem;
+
+}
+
+.lookbook-wrap .item-imgs .item3:hover .text-buble3 {
+    display: block;
+}
+
+/* 4번째 사진 */
+.lookbook-wrap .item-imgs .item4 {
+    position: relative;
+
+}
+
+.text-buble4 .hashtag1 {
+    position: absolute;
+    width: 17.5rem;
+    height: 4rem;
+    background: rgba(217, 217, 217, 0.50);
+    backdrop-filter: blur(2px);
+    /* border: 1px solid #ccc; */
+    padding: 0.8rem 1.6rem;
+    font-size: 1.6rem;
+    font-weight: 400;
+    letter-spacing: 0.4px;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    bottom: 9rem;
+    right: 20rem;
+    color: #fff;
+}
+
+.text-buble4 .hashtag1::after {
+    content: '';
+    position: absolute;
+    left: 1.8rem;
+    top: -1.6rem;
+    width: 0;
+    height: 0;
+    border: 0.8rem solid transparent;
+    border-bottom-color: rgba(217, 217, 217, 0.50);
+    margin-left: -0.8rem;
+
+}
+
+.lookbook-wrap .item-imgs .item4:hover .text-buble4 {
+    display: block;
+}
+
+/* 5번째 사진 */
+.lookbook-wrap .item-imgs .item5 {
+    position: relative;
+
+}
+
+.text-buble5 .hashtag1 {
+    position: absolute;
+    width: 12.5rem;
+    height: 4rem;
+    background: rgba(217, 217, 217, 0.50);
+    backdrop-filter: blur(2px);
+    /* border: 1px solid #ccc; */
+    padding: 0.8rem 1.6rem;
+    font-size: 1.6rem;
+    font-weight: 400;
+    letter-spacing: 0.4px;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    bottom: 19rem;
+    right: 23rem;
+    color: #fff;
+}
+
+.text-buble5 .hashtag1::after {
+    content: '';
+    position: absolute;
+    left: 1.8rem;
+    top: -1.6rem;
+    width: 0;
+    height: 0;
+    border: 0.8rem solid transparent;
+    border-bottom-color: rgba(217, 217, 217, 0.50);
+    margin-left: -0.8rem;
+
+}
+
+.lookbook-wrap .item-imgs .item5:hover .text-buble5 {
+    display: block;
+}
+
+/* 6번째 사진 */
+.lookbook-wrap .item-imgs .item6 {
+    position: relative;
+
+}
+
+.text-buble6 .hashtag1 {
+    position: absolute;
+    width: 17.5rem;
+    height: 4rem;
+    background: rgba(217, 217, 217, 0.50);
+    backdrop-filter: blur(2px);
+    /* border: 1px solid #ccc; */
+    padding: 0.8rem 1.6rem;
+    font-size: 1.6rem;
+    font-weight: 400;
+    letter-spacing: 0.4px;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    bottom: 36rem;
+    right: 12rem;
+    color: #fff;
+}
+
+.text-buble6 .hashtag1::after {
+    content: '';
+    position: absolute;
+    left: 16rem;
+    top: -1.6rem;
+    width: 0;
+    height: 0;
+    border: 0.8rem solid transparent;
+    border-bottom-color: rgba(217, 217, 217, 0.50);
+    margin-left: -0.8rem;
+
+}
+
+.lookbook-wrap .item-imgs .item6:hover .text-buble6 {
+    display: block;
+}
+
+/* 7번째 사진 */
+.lookbook-wrap .item-imgs .item7 {
+    position: relative;
+
+}
+
+.text-buble7 .hashtag1 {
+    position: absolute;
+    width: 16rem;
+    height: 4rem;
+    background: rgba(217, 217, 217, 0.50);
+    backdrop-filter: blur(2px);
+    /* border: 1px solid #ccc; */
+    padding: 0.8rem 1.6rem;
+    font-size: 1.6rem;
+    font-weight: 400;
+    letter-spacing: 0.4px;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    bottom: 37rem;
+    left: 25rem;
+    color: #fff;
+}
+
+.text-buble7 .hashtag1::after {
+    content: '';
+    position: absolute;
+    left: 1.4rem;
+    top: -1.6rem;
+    width: 0;
+    height: 0;
+    border: 0.8rem solid transparent;
+    border-bottom-color: rgba(217, 217, 217, 0.50);
+    margin-left: -0.8rem;
+
+}
+
+.text-buble7 .hashtag2 {
+    position: absolute;
+    width: 27.8rem;
+    height: 4rem;
+    background: rgba(217, 217, 217, 0.50);
+    backdrop-filter: blur(2px);
+    /* border: 1px solid #ccc; */
+    padding: 0.8rem 1.6rem;
+    font-size: 1.6rem;
+    font-weight: 400;
+    letter-spacing: 0.4px;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    bottom: 32rem;
+    right: 12rem;
+    color: #fff;
+}
+
+.text-buble7 .hashtag2::after {
+    content: '';
+    position: absolute;
+    left: 1.7rem;
+    top: -1.6rem;
+    width: 0;
+    height: 0;
+    border: 0.8rem solid transparent;
+    border-bottom-color: rgba(217, 217, 217, 0.50);
+    margin-left: -0.8rem;
+
+}
+
+.text-buble7 .hashtag3 {
+    position: absolute;
+    width: 11rem;
+    height: 4rem;
+    background: rgba(217, 217, 217, 0.50);
+    backdrop-filter: blur(2px);
+    /* border: 1px solid #ccc; */
+    padding: 0.8rem 1.6rem;
+    font-size: 1.6rem;
+    font-weight: 400;
+    letter-spacing: 0.4px;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    bottom: 27rem;
+    right: 12rem;
+    color: #fff;
+}
+
+.text-buble7 .hashtag3::after {
+    content: '';
+    position: absolute;
+    left: 17px;
+    top: -1.6rem;
+    width: 0;
+    height: 0;
+    border: 0.8rem solid transparent;
+    border-bottom-color: rgba(217, 217, 217, 0.50);
+    margin-left: -0.8rem;
+
+}
+
+.lookbook-wrap .item-imgs .item7:hover .text-buble7 {
+    display: block;
+}
+
+/* 8번째 사진 */
+.lookbook-wrap .item-imgs .item8 {
+    position: relative;
+
+}
+
+.text-buble8 .hashtag1 {
+    position: absolute;
+    width: 17rem;
+    height: 4rem;
+    background: rgba(217, 217, 217, 0.50);
+    backdrop-filter: blur(2px);
+    /* border: 1px solid #ccc; */
+    padding: 0.8rem 1.6rem;
+    font-size: 1.6rem;
+    font-weight: 400;
+    letter-spacing: 0.4px;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    top: 10rem;
+    right: 8rem;
+    color: #fff;
+}
+
+.text-buble8 .hashtag1::after {
+    content: '';
+    position: absolute;
+    left: 10.8rem;
+    top: -1.6rem;
+    width: 0;
+    height: 0;
+    border: 0.8rem solid transparent;
+    border-bottom-color: rgba(217, 217, 217, 0.50);
+    margin-left: -0.8rem;
+
+}
+
+.text-buble8 .hashtag2 {
+    position: absolute;
+    width: 28rem;
+    height: 4rem;
+    background: rgba(217, 217, 217, 0.50);
+    backdrop-filter: blur(2px);
+    /* border: 1px solid #ccc; */
+    padding: 0.8rem 1.6rem;
+    font-size: 1.6rem;
+    font-weight: 400;
+    letter-spacing: 0.4px;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    top: 16rem;
+    right: 1rem;
+    color: #fff;
+}
+
+.text-buble8 .hashtag2::after {
+    content: '';
+    position: absolute;
+    left: 1.7rem;
+    top: -1.6rem;
+    width: 0;
+    height: 0;
+    border: 0.8rem solid transparent;
+    border-bottom-color: rgba(217, 217, 217, 0.50);
+    margin-left: -0.8rem;
+
+}
+
+.lookbook-wrap .item-imgs .item8:hover .text-buble8 {
+    display: block;
+}

@@ -1,0 +1,40 @@
+.tap-wrap{
+    position: relative;    
+    /* border:1px solid blue; */
+}
+.tap-wrap img{
+    width:100%;
+    margin-top: 7rem;
+}
+
+.tap-wrap .tap-text{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    left:50%;
+    top:50%;
+    transform:translate(-50%,-50%);
+    /* border:1px solid red; */
+    z-index:1000;
+    color:#FFF;
+}
+.tap-wrap .tap-text>h2{
+    font-size:3.2rem;
+    font-weight:500;
+}
+.tap-wrap .tap-text .tap-link{
+    display: flex;
+    flex-direction:row;
+    gap:1.6rem;
+    font-size:1.6rem;
+    font-weight:400;
+    /* border:1px solid blue; */
+}
+
+.item-wrap{
+    margin-top:6rem;
+    display: flex;
+    flex-direction: column;
+    gap:4rem;
+}
